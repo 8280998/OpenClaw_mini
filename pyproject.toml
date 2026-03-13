@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openclawish"
+version = "0.1.0"
+description = "A Telegram-controlled local coding agent inspired by OpenClaw."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "openai>=2.6.0",
+  "python-telegram-bot>=22.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+]
+
+[project.scripts]
+openclawish = "openclawish.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

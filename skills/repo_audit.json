@@ -1,0 +1,6 @@
+{
+  "name": "repo_audit",
+  "description": "Inspect a code repository and summarize structure, risks, and likely next steps.",
+  "prompt_prefix": "Focus on repository inspection. Prefer read-only commands such as pwd, ls, find, rg, git status, and test discovery. Return a short plan that helps an operator understand the project quickly.",
+  "suggested_mode": "workspace"
+}

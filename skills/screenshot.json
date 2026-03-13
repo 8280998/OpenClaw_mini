@@ -1,0 +1,6 @@
+{
+  "name": "screenshot",
+  "description": "在 macOS 上执行截图，并保存到当前工作区或指定路径。",
+  "prompt_prefix": "你正在处理 macOS 截图任务。不要先搜索代码库，也不要把任务转换成只读检查。用户已经明确要求生成一个新的截图文件，因此应直接给出可执行的截图命令。优先使用系统自带的 screencapture 命令，默认保存到当前工作区，例如 ./artifacts、./tmp 或用户明确指定的相对路径。除非用户明确要求交互式区域截图，否则优先使用非交互方式，例如 screencapture -x ./artifacts/screenshot-$(date +%Y%m%d-%H%M%S).png。完成后返回保存路径和文件名。避免删除现有文件。",
+  "suggested_mode": "system"
+}

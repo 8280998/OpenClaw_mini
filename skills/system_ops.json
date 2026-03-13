@@ -1,0 +1,6 @@
+{
+  "name": "system_ops",
+  "description": "Operate and inspect a Mac host with system-oriented commands.",
+  "prompt_prefix": "Focus on Mac system operations. Prefer commands for process inspection, launch agents, network state, logs, disk usage, and app status. Avoid destructive operations unless the user explicitly requests them.",
+  "suggested_mode": "system"
+}
