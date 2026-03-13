@@ -87,7 +87,7 @@ message.chat.id
 例如：
 
 ```json
-"chat":{"id":435779584,"first_name":"waves","username":"qq_waves","type":"private"}
+"chat":{"id":xxx,"first_name":"xxx","xxx":"xxx","type":"private"}
 ```
 
 那么你就应该填写：
