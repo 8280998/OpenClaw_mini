@@ -84,13 +84,13 @@ message.chat.id
 Example:
 
 ```json
-"chat":{"id":435779584,"first_name":"waves","username":"qq_waves","type":"private"}
+"chat":{"id":xxxx,"first_name":"xxxx","username":"xxxx","type":"private"}
 ```
 
 Then set:
 
 ```bash
-TELEGRAM_ALLOWED_CHAT_IDS="435779584"
+TELEGRAM_ALLOWED_CHAT_IDS="xxxx"
 ```
 
 7. Create the local data directory and install dependencies:
