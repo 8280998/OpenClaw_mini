@@ -93,7 +93,7 @@ message.chat.id
 那么你就应该填写：
 
 ```bash
-TELEGRAM_ALLOWED_CHAT_IDS="435779584"
+TELEGRAM_ALLOWED_CHAT_IDS="xxxx"
 ```
 
 7. 创建虚拟环境并安装依赖：
