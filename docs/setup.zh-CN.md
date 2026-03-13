@@ -171,13 +171,13 @@ message.chat.id
 例如：
 
 ```json
-"chat":{"id":435779584,"first_name":"waves","username":"qq_waves","type":"private"}
+"chat":{"id":xxxx,"first_name":"xxxx","username":"xxxx","type":"private"}
 ```
 
 5. 把这个值写进配置文件：
 
 ```bash
-TELEGRAM_ALLOWED_CHAT_IDS="435779584"
+TELEGRAM_ALLOWED_CHAT_IDS="xxxx"
 ```
 
 补充说明：
